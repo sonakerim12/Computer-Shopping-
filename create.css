@@ -1,0 +1,39 @@
+form {
+    width: 20vw;
+    margin: 0 auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+*{
+    font-family: 'Salsa', cursive;
+}
+.success-message,
+.error-message {
+    display: none;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
+
+.btn-primary {
+    margin-left: 50vw;
+}
+
+.right-message {
+    margin-top: 1vh;
+    margin-left: 40vw;
+}
+
+.success-message,
+.error-message {
+    font-size: small;
+}
+
+.btn-warning {
+    margin-top: 2vh !important;
+    margin-bottom: 1vh !important;
+}
